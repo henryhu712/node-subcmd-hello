@@ -2,7 +2,7 @@
 
 使用 commander 库来创建命令行工具很方便，commander 在 github 上有 1.3 万 star，是一个流行的 node.js 库。
 
-想想 git 命令包括众多的子命令：git add, git commit, git push, 等等，你也可以像 git 一样，创建自己的一组命令行工具。使用 commander 来创建具有子命令的一组命令很方便，子命令是一个单独的 js 文件，默认文件名：
+想想 git 命令包括众多的子命令：git add, git commit, git push, 等等，你也创建像 git 一样的一组命令行工具。使用 commander 来创建具有子命令的一组命令很方便，每个子命令是一个单独的 js 文件，默认文件名：
 
     [主命令]-[子命令].js
 
